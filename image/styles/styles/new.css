@@ -1,0 +1,25 @@
+.banner img{
+    width: 100%;
+    height:400px;
+}
+.collage-three{
+    display: flex;
+    gap: 5px;
+    
+}
+.collage-three img{
+    height: 400px;
+    width: 100%;
+}
+.collage-three div{
+    flex: 1;
+}
+.im3 img{
+height: 30%;}
+ 
+
+
+ 
+
+
+ 
