@@ -17,6 +17,27 @@
 }
 .im3 img{
 height: 50%;}
+
+.collage-square{
+    display: flex;
+    /* grid-template-columns: repeat(1,1fr); */
+    /* grid-template-rows: repeat(1,1fr); */
+    /* width: 100%; */
+    gap: 5px;
+}
+.collage-square div{
+    flex: 1;
+}
+.collage-square img{
+    width: 100%;
+    flex: 1;
+}
+.square{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+    justify-content: center;
+}
  
 
 
