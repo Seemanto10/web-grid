@@ -45,3 +45,13 @@
     }
     
 }
+@media screen and (min-width:577px) and (max-width:992px) {
+    .container{
+        grid-template-areas: 
+        "header header header header "
+        "nav nav nav nav "
+        "advertise main main"
+        "sidebar footer footer";
+    }
+    
+}
